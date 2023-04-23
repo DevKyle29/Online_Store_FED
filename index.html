@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://i.pinimg.com/564x/ef/1f/e9/ef1fe940f2c898351068f0af54bcc100.jpg">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/slider.css">
+    <!-- google fonts link goes here . Get it from Google Fonts after selecting the various weights -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,400&display=swap" rel="stylesheet">
+    <!-- link to resposnive JAVASCRIPT used for the burger bar menu . YOu need this to have a menu icon when resposnive -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <title>ADDi-Styles</title>
+</head>
+<body>
+    <!-- header and navigation section -->
+ <section class="header">
+    <nav>
+        <a href="Index.html"><img src="./images/logo/adidas-group.png" alt="Logo"></a>
+        <div class="nav-links" id="navLinks">
+             <i class="fa fa-times" onclick="hideMenu()"></i>
+             <ul>
+                 <li><a href="./index.html">HOME</a></li>
+                 <li><a href="./about.html">ABOUT</a></li>
+                 <li><a href="./lookbook.html">LOOKBOOK</a></li>
+                 <li><a href="./shop.html">SHOP</a></li>
+                 <li><a href="./contact.html">CONTACT</a></li>
+                 <li><a href="./cart.html"><i class="bi bi-bag" id="cart-icon"></i></a></li>
+             </ul>
+        </div>  
+    </nav>
+    <div class="text-box">
+        <img src="./images/logo/backdoor_white.png" alt="thebackdoor" class="backdoorlogo">
+        <br>
+        </p>
+        <a href="./shop.html" class="hero-btn">SHOP NOW</a>
+    </div>
+ </section>   
+
+ <!-- New Arrivals Section -->
+ <section class="container-newproducts">
+    <div class="carousel-container container reveal">
+        <i class="bi bi-arrow-right" id="nextbutton"></i>
+        <i class="bi bi-arrow-left" id="prevbutton"></i>
+        <h1>Coming Soon</h1>
+        <div class="carousel-slide">
+            <img src="./images/coming soon images/bearbrick-1.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/kaws-statue-2.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/newbalance-2.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/kaws-statue.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/newbalance-1.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/laces-1.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/parra.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/yeezy-450.jpg"
+                class="gallery-img">
+            <img src="./images/coming soon images/nike-dunk.jpg"
+                class="gallery-img">
+        </div>
+    </div>
+ </section>
+
+ <!------- Apparel Section ------->
+<section class="container campus py-5">
+    <div class="row reveal">
+        <div class="campus-col">
+            <img src="https://c0.wallpaperflare.com/preview/637/646/434/fashion-feet-footwear-sneakers.jpg" id="gear">
+            <div class="layer">
+                <a href="./shop.html#sneakers"><h3>SNEAKERS</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="https://www.highsnobiety.com/static-assets/thumbor/ovR6KmkHXa1XzDoVgZ1NVyWosF0=/1600x2134/www.highsnobiety.com/static-assets/wp-content/uploads/2021/08/26153211/fear-of-god-essentials-fall-2021-018.jpg"
+                id="gear">
+            <div class="layer">
+                <a href="./shop.html#apparel"><h3>APPAREL</h3></a>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="https://cdn.shopify.com/s/files/1/0070/3633/8260/products/JM_Hats_Fam_01_480x.jpg?v=1661981451"
+                id="gear">
+            <div class="layer">
+                <a href="./shop.html#accessories"><h3>ACCESSORIES</h3></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------- Cleaning Section -------->
+<section class="container-fluid facilities py-5">
+    <div class="post-container reveal">
+        <img class="cleaning-logo"
+            src="https://www.swaggermagazine.com/home/wp-content/uploads/2022/02/A-Ma-Maniere-AJ1_Essential-Cleaning_January-2022-Airbnb_Vick-Lifestyle-11.jpg" />
+        <div class="post-thumb">
+            <p>POWERED BY SNEAKER LAB</p>
+            <h2>CLEAN. SNEAKER LAUNDRY</h2>
+            <p>Bring your kicks & caps back to life with South Africa's greenest & cleanest Sneaker Laundry; Clean.
+                Simply drop your kicks & headwear off in-store, (no booking required) & let us treat your prized
+                possesions with the latest cleaning bio-technology, Powered by Sneaker LAB</p>
+            <a href="./shop.html#accessories" class="hero-btn-clean">SHOP NOW</a>      
+        </div>
+    </div>
+</section>
+
+<!-- ------ Testimonials From Customers ------ -->
+<section class="testimonials py-5">
+    <h1>What Our Customers Have To Say</h1>
+    <div class="row pt-3 reveal">
+        <div class="testimonial-col">
+            <img src="./images/backgrounds/user1.jpg" alt="">
+            <div>
+                <p>Excellent customer service. I received my parcel within 2 days of payment.</p>
+                <h3>Sondre</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-o"></i>
+            </div>
+        </div>
+        <div class="testimonial-col">
+            <img src="./images/backgrounds/user2.jpg" alt="">
+            <div>
+                <p>I couldnt get my pair on release day but The Super Kicks hooked me up with a deadstock pair.</p>
+                <h3>Cody</h3>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star-half-o"></i>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-------- Call To Action -------->
+<section class="container-fluid videos reveal">
+    <video class="container yeezyvideo" controls autoplay muted controls>
+        <source src="./video/video.mp4" width="100%" height="400px" type="video/mp4" class="yeezy">
+    </video>
+</section>
+<section class="cta reveal">
+    <h1>Looking for other sneakers?<br></h1>
+    <br>
+    <a href="./Contact.html" class="hero-btn">CONTACT US</a>
+</section>
+
+<!-- Featured Products/Brands -->
+<section class="products-we-offer">
+    <h2 class="featured">Featured Brands</h2>
+    <div class="container-fluid d-flex justify-content-center g-3">
+        <div class="row gx-1 justify-content-center">
+          <div class="col-lg-2 col-md-12 ">
+            <img src="./images/brands we offer/addias.jpg" alt="adidas" class="img-hover brands">
+          </div>
+          <div class="col-lg-2 col-md-6 ">
+            <img src="./images/brands we offer/yeezy.jpg" alt="assc" class="img-hover brands">
+          </div>
+          <div class="col-lg-2 col-md-6 ">
+            <img src="./images/brands we offer/essentials.jpg" alt="essentials" class="img-hover brands">
+          </div>
+          <div class="col-lg-2 col-md-6 ">
+            <img src="./images/brands we offer/kith.jpg" alt="kith" class="img-hover brands">
+          </div>
+          <div class="col-lg-2 col-md-6 ">
+            <img src="./images/brands we offer/palace.jpg" alt="palace" class="img-hover brands">
+          </div>
+          <div class="col-lg-2 col-md-6 ">
+            <img src="./images/brands we offer/parra.jpg" alt="parra" class="img-hover brands">
+          </div>
+        </div>
+      </div>
+</section>
+
+<!-- Location -->
+<section class="container location">
+    <div class="how-section1">
+        <div class="row ">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3310.6320487216176!2d18.41957599992469!3d-33.924868418914826!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1dcc67269997900b%3A0x31069623d320de8c!2sCBD!5e0!3m2!1sen!2sza!4v1663700469676!5m2!1sen!2sza"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+    </div>
+</section>
+
+<!-------- Footer -------->
+<hr>
+<section class="footer">
+    <div class="icons">
+        <a href="https://www.linkedin.com/in/kyle-fry?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BVMw36hLWQuKt6TuCkkV5ug%3D%3D" target="_blank"><i class="fa fa-linkedin"></i></a>
+    </div>
+    <p> &copy Developed <i class="fa fa-heart-o"></i> by Kyle Fry</p>
+</section>
+
+<!-- Scripts -->
+<script src="./js/script.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js" integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/material-ui/5.0.0-beta.5/index.js" integrity="sha512-uKxirna7d5STmVXEMQYBVRW1nERrqHjwOubv4QcK4oYaaifLiEnN/aLIJxVsyK4R1K+awpNIG73RaQfT1DZ8ew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
+
+
+    
+</body>
+</html>
